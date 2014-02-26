@@ -1,7 +1,13 @@
 {
   "name": "rgulp",
-  "bin" : { "rgulp" : "./bin/rgulp" },
+  "bin": {
+    "rgulp": "./bin/rgulp"
+  },
   "dependencies": {
     "coffee-script": "~1.7.1"
+  },
+  "devDependencies": {
+    "kexec": "^0.2.0",
+    "execSync": "^1.0.1-pre"
   }
 }
