@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/boxen/nvm/v0.10.26/bin/node',
+1 verbose cli   '/opt/boxen/nvm/v0.10.26/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/David/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+12 verbose folder .
+13 info prepublish rgulp@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/David/.npm/1f1177db-tar.lock
+16 silly lockFile 68afe670-5159-0-24174361675977707-tmp-tgz tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+17 verbose lock tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz /Users/David/.npm/68afe670-5159-0-24174361675977707-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 68afe670-5159-0-24174361675977707-tmp-tgz tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+21 silly lockFile 68afe670-5159-0-24174361675977707-tmp-tgz tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+22 verbose tar unpack /var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+23 silly lockFile e8c61114-5159-0-24174361675977707-package tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package
+24 verbose lock tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package /Users/David/.npm/e8c61114-5159-0-24174361675977707-package.lock
+25 silly lockFile 68afe670-5159-0-24174361675977707-tmp-tgz tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+26 verbose lock tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz /Users/David/.npm/68afe670-5159-0-24174361675977707-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry bin/rgulp
+31 silly gunzTarPerm extractEntry cli.coffee
+32 silly gunzTarPerm extractEntry rgulp.coffee
+33 silly lockFile e8c61114-5159-0-24174361675977707-package tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package
+34 silly lockFile e8c61114-5159-0-24174361675977707-package tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package
+35 silly lockFile 68afe670-5159-0-24174361675977707-tmp-tgz tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+36 silly lockFile 68afe670-5159-0-24174361675977707-tmp-tgz tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/tmp.tgz
+37 verbose tar pack [ '/Users/David/.npm/rgulp/0.1.0/package.tgz',
+37 verbose tar pack   '/var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package' ]
+38 verbose tarball /Users/David/.npm/rgulp/0.1.0/package.tgz
+39 verbose folder /var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package
+40 silly lockFile e8c61114-5159-0-24174361675977707-package tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package
+41 verbose lock tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package /Users/David/.npm/e8c61114-5159-0-24174361675977707-package.lock
+42 silly lockFile b5310d40-avid-npm-rgulp-0-1-0-package-tgz tar:///Users/David/.npm/rgulp/0.1.0/package.tgz
+43 verbose lock tar:///Users/David/.npm/rgulp/0.1.0/package.tgz /Users/David/.npm/b5310d40-avid-npm-rgulp-0-1-0-package-tgz.lock
+44 silly lockFile e8c61114-5159-0-24174361675977707-package tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package
+45 silly lockFile e8c61114-5159-0-24174361675977707-package tar:///var/folders/g3/ynwn71895lq9pt6tsjz9ppgh0000gn/T/npm-59696-igG4WrsY/1393449195159-0.24174361675977707/package
+46 silly lockFile b5310d40-avid-npm-rgulp-0-1-0-package-tgz tar:///Users/David/.npm/rgulp/0.1.0/package.tgz
+47 silly lockFile b5310d40-avid-npm-rgulp-0-1-0-package-tgz tar:///Users/David/.npm/rgulp/0.1.0/package.tgz
+48 silly lockFile 067f263d-rs-David-npm-rgulp-0-1-0-package /Users/David/.npm/rgulp/0.1.0/package
+49 verbose lock /Users/David/.npm/rgulp/0.1.0/package /Users/David/.npm/067f263d-rs-David-npm-rgulp-0-1-0-package.lock
+50 silly lockFile 067f263d-rs-David-npm-rgulp-0-1-0-package /Users/David/.npm/rgulp/0.1.0/package
+51 silly lockFile 067f263d-rs-David-npm-rgulp-0-1-0-package /Users/David/.npm/rgulp/0.1.0/package
+52 verbose tar unpack /Users/David/.npm/rgulp/0.1.0/package.tgz
+53 silly lockFile 67ce0149-rs-David-npm-rgulp-0-1-0-package tar:///Users/David/.npm/rgulp/0.1.0/package
+54 verbose lock tar:///Users/David/.npm/rgulp/0.1.0/package /Users/David/.npm/67ce0149-rs-David-npm-rgulp-0-1-0-package.lock
+55 silly lockFile b5310d40-avid-npm-rgulp-0-1-0-package-tgz tar:///Users/David/.npm/rgulp/0.1.0/package.tgz
+56 verbose lock tar:///Users/David/.npm/rgulp/0.1.0/package.tgz /Users/David/.npm/b5310d40-avid-npm-rgulp-0-1-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry index.js
+60 silly gunzTarPerm extractEntry bin/rgulp
+61 silly gunzTarPerm extractEntry cli.coffee
+62 silly gunzTarPerm extractEntry rgulp.coffee
+63 silly lockFile 67ce0149-rs-David-npm-rgulp-0-1-0-package tar:///Users/David/.npm/rgulp/0.1.0/package
+64 silly lockFile 67ce0149-rs-David-npm-rgulp-0-1-0-package tar:///Users/David/.npm/rgulp/0.1.0/package
+65 silly lockFile b5310d40-avid-npm-rgulp-0-1-0-package-tgz tar:///Users/David/.npm/rgulp/0.1.0/package.tgz
+66 silly lockFile b5310d40-avid-npm-rgulp-0-1-0-package-tgz tar:///Users/David/.npm/rgulp/0.1.0/package.tgz
+67 verbose chmod /Users/David/.npm/rgulp/0.1.0/package.tgz 644
+68 verbose chown /Users/David/.npm/rgulp/0.1.0/package.tgz [ 501, 20 ]
+69 silly lockFile 3a52ce78- .
+70 silly lockFile 3a52ce78- .
+71 silly publish { name: 'rgulp',
+71 silly publish   version: '0.1.0',
+71 silly publish   description: 'RGulp allows you to keep your gulp build process as a standalone repo that you can reuse in multiple apps',
+71 silly publish   keywords: [ 'gulp', 'cli', 'make', 'build' ],
+71 silly publish   homepage: 'https://github.com/Vlipco/node-rgulp',
+71 silly publish   bugs:
+71 silly publish    { url: 'https://github.com/Vlipco/node-rgulp/issues',
+71 silly publish      email: 'info@vlipco.co' },
+71 silly publish   license: 'MIT',
+71 silly publish   author:
+71 silly publish    { name: 'Vlipco',
+71 silly publish      email: 'info@vlipco.co',
+71 silly publish      url: 'https://https://github.com/Vlipco' },
+71 silly publish   contributors:
+71 silly publish    [ { name: 'David Pelaez',
+71 silly publish        email: 'hello@davidpelaez.me',
+71 silly publish        url: 'https://github.com/davidpelaez' } ],
+71 silly publish   files: [ 'index.js', 'rgulp.coffee', 'cli.coffee', 'bin' ],
+71 silly publish   repository: { type: 'git', url: 'https://github.com/Vlipco/node-rgulp.git' },
+71 silly publish   bin: { rgulp: './bin/rgulp' },
+71 silly publish   dependencies:
+71 silly publish    { 'coffee-script': '~1.7.1',
+71 silly publish      kexec: '~0.2.0',
+71 silly publish      execSync: '~1.0.1-pre' },
+71 silly publish   readme: 'ERROR: No README data found!',
+71 silly publish   _id: 'rgulp@0.1.0',
+71 silly publish   dist: { shasum: '0a7ca256306b270f1248afd5b800d270c35a0571' },
+71 silly publish   _from: '.' }
+72 verbose url raw rgulp
+73 verbose url resolving [ 'https://registry.npmjs.org/', './rgulp' ]
+74 verbose url resolved https://registry.npmjs.org/rgulp
+75 info trying registry request attempt 1 at 16:13:15
+76 http PUT https://registry.npmjs.org/rgulp
+77 http 403 https://registry.npmjs.org/rgulp
+78 error publish Failed PUT 403
+79 error Error: forbidden cannot modify pre-existing version: 0.1.0
+79 error old={"name":"rgulp","version":"0.1.0","description":"RGulp allows you to keep your gulp build process as a standalone repo that you can reuse in multiple apps","keywords":["gulp","cli","make","build"],"homepage":"https://github.com/Vlipco/node-rgulp","bugs":{"url":"https://github.com/Vlipco/node-rgulp/issues","email":"info@vlipco.co"},"license":"MIT","author":{"name":"Vlipco","email":"info@vlipco.co","url":"https://https://github.com/Vlipco"},"contributors":[{"name":"David Pelaez","email":"hello@davidpelaez.me","url":"https://github.com/davidpelaez"}],"files":["index.js","rgulp.coffee","cli.coffee","bin"],"repository":{"type":"git","url":"https://github.com/Vlipco/node-rgulp.git"},"bin":{"rgulp":"./bin/rgulp"},"dependencies":{"coffee-script":"~1.7.1","kexec":"~0.2.0","execSync":"~1.0.1-pre"},"_id":"rgulp@0.1.0","dist":{"shasum":"0a7ca256306b270f1248afd5b800d270c35a0571","tarball":"http://registry.npmjs.org/rgulp/-/rgulp-0.1.0.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"vlipco","email":"info@vlipco.co"},"maintainers":[{"name":"vlipco","email":"info@vlipco.co"}]}
+79 error new={"name":"rgulp","version":"0.1.0","description":"RGulp allows you to keep your gulp build process as a standalone repo that you can reuse in multiple apps","keywords":["gulp","cli","make","build"],"homepage":"https://github.com/Vlipco/node-rgulp","bugs":{"url":"https://github.com/Vlipco/node-rgulp/issues","email":"info@vlipco.co"},"license":"MIT","author":{"name":"Vlipco","email":"info@vlipco.co","url":"https://https://github.com/Vlipco"},"contributors":[{"name":"David Pelaez","email":"hello@davidpelaez.me","url":"https://github.com/davidpelaez"}],"files":["index.js","rgulp.coffee","cli.coffee","bin"],"repository":{"type":"git","url":"https://github.com/Vlipco/node-rgulp.git"},"bin":{"rgulp":"./bin/rgulp"},"dependencies":{"coffee-script":"~1.7.1","kexec":"~0.2.0","execSync":"~1.0.1-pre"},"readme":"ERROR: No README data found!","_id":"rgulp@0.1.0","dist":{"shasum":"0a7ca256306b270f1248afd5b800d270c35a0571","tarball":"http://registry.npmjs.org/rgulp/-/rgulp-0.1.0.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"vlipco","email":"info@vlipco.co"},"maintainers":[{"name":"vlipco","email":"info@vlipco.co"}]}: rgulp
+79 error     at RegClient.<anonymous> (/opt/boxen/nvm/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+79 error     at Request.self.callback (/opt/boxen/nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+79 error     at Request.EventEmitter.emit (events.js:98:17)
+79 error     at Request.<anonymous> (/opt/boxen/nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+79 error     at Request.EventEmitter.emit (events.js:117:20)
+79 error     at IncomingMessage.<anonymous> (/opt/boxen/nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+79 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+79 error     at _stream_readable.js:920:16
+79 error     at process._tickCallback (node.js:415:13)
+80 error If you need help, you may report this *entire* log,
+80 error including the npm and node versions, at:
+80 error     <http://github.com/npm/npm/issues>
+81 error System Darwin 13.0.0
+82 error command "/opt/boxen/nvm/v0.10.26/bin/node" "/opt/boxen/nvm/v0.10.26/bin/npm" "publish"
+83 error cwd /Volumes/DPT/Work/Vlipco/devVlipco/contributions/rgulp
+84 error node -v v0.10.26
+85 error npm -v 1.4.3
+86 verbose exit [ 1, true ]
