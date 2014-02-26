@@ -57,7 +57,7 @@ sync = ->
 # if no bin/prepare only npm install is run
 prepare = ->
 	clone() unless repoExists()
-	prepareScript = "#{targetFolder}/bin/prepare"
+	prepareScript = rg.expand "#{targetFolder}/bin/prepare"
 	prepareExists = fs.existsSync prepareScript
 	if prepareExists
 		log "Prepare script detected in .rgulp"
