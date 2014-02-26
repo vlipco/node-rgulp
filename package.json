@@ -1,0 +1,7 @@
+{
+  "name": "rgulp",
+  "bin" : { "rgulp" : "./bin/rgulp" },
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
