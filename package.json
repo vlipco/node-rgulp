@@ -2,26 +2,32 @@
   "name": "rgulp",
   "version": "0.0.1",
   "description": "RGulp allows you to keep your gulp build process as a standalone repo that you can reuse in multiple apps",
-  "keywords": ["gulp","cli","make","build"],
+  "keywords": [
+    "gulp",
+    "cli",
+    "make",
+    "build"
+  ],
   "homepage": "https://github.com/Vlipco/node-rgulp",
-  "bugs":{
-  	"email": "info@vlipco.co",
-  	"url": "https://github.com/Vlipco/node-rgulp/issues"
+  "bugs": {
+    "email": "info@vlipco.co",
+    "url": "https://github.com/Vlipco/node-rgulp/issues"
   },
   "license": "MIT",
   "author": "Vlipco <info@vlipco.co> (https://https://github.com/Vlipco)",
-  "contributors": ["David Pelaez <hello@davidpelaez.me> (https://github.com/davidpelaez)"],
+  "contributors": [
+    "David Pelaez <hello@davidpelaez.me> (https://github.com/davidpelaez)"
+  ],
   "files": [
     "index.js",
     "rgulp.coffee",
     "cli.coffee",
     "bin"
   ],
-  "repository" :{
-  	"type" : "git",
-	"url" : "https://github.com/Vlipco/node-rgulp.git"
-	},
-
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vlipco/node-rgulp.git"
+  },
   "bin": {
     "rgulp": "./bin/rgulp"
   },
