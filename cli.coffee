@@ -61,7 +61,7 @@ prepare = ->
 	prepareExists = fs.existsSync prepareScript
 	if prepareExists
 		log "Prepare script detected in .rgulp"
-		cmd = prepareScript
+		cmd = "cd #{targetFolder} && #{prepareScript}"
 		run cmd, err: ".rgulp prepare script failed"
 		log "Prepare script completed"
 	else
