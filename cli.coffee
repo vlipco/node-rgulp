@@ -71,13 +71,16 @@ prepare = ->
 		run cmd, err: "`npm install` inside .rgulp failed"
 		log "Dependencies installed, run `rgulp` as you'd call regular gulp. e.g. `rgulp jade`"
 
+version = ->
+	pjson = require './package.json'
+	log pjson.version
+
 
 # skip node and command name in cli args
 args = process.argv.slice 2
 
 switch args[0]
+	when 'version' then version()
 	when 'sync' then sync()
 	when 'prepare' then prepare()
-	else 
-		sync()
-		runGulp args.join ' '
+	else runGulp args.join ' '

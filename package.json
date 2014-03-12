@@ -1,6 +1,6 @@
 {
   "name": "rgulp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RGulp allows you to keep your gulp build process as a standalone repo that you can reuse in multiple apps",
   "keywords": [
     "gulp",
